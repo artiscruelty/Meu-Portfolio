@@ -1,6 +1,6 @@
 function displaySkills(){
-    var vira = document.getElementById("vira");
-    vira.classList.toggle("virar");
-    var vira = document.getElementById("img-skills")
-    vira.classList.toggle("ativo")
+    var arrowSkills = document.getElementById("animation--skills");
+    arrowSkills.classList.toggle("rotate--skills");
+    var arrowSkills = document.getElementById("img--skills")
+    arrowSkills.classList.toggle("active--skills")
 }

@@ -150,22 +150,23 @@ header ul li a:hover{
     }
 
 }
-#flecha{
+#arrowSkills{
+    text-align: center;
     cursor: pointer;
     font-size: 35px;
 }
-#img-skills{
+#img--skills{
     max-width: 600px;
     margin: 0 auto;
 }
-#vira{
+#animation--skills{
     transition: 500ms;
 
 }
-.virar{
-    transform: rotate(90deg);
+.rotate--skills{
+    transform: rotate(180deg);
 }
-.ativo{
+.active--skills{
     display:flex !important;
     flex-wrap:wrap;
     justify-content:space-around;
