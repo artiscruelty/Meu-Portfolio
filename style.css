@@ -6,6 +6,7 @@
     text-decoration: none;
     color: #2DE2E6;
     font-family: 'Quantico', sans-serif;
+    scroll-behavior: smooth;
 }
 ul{
     font-style: italic;
@@ -47,9 +48,7 @@ header ul li a:hover{
 #arrow{
     font-size: 35px;
     cursor: pointer;
-
 }
-
 .rotate{
     transform: rotate(180deg);
     transition: 500ms;
@@ -65,6 +64,41 @@ header ul li a:hover{
 #about p {
     max-width: 600px;
     margin: 0 auto;
+}
+#skills{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.container-carrosel{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2%;
+    
+}
+.container-carrosel ul {
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+.container-carrosel ul li{
+    text-align: center;
+    padding: 5px; 
+    margin: 5px;
+    font-size:25px;
+    transition: 300ms;
+}
+.container-carrosel ul li:hover{
+    cursor: pointer;
+    background-color: #FD1D53;
+}
+
+.container-form{
+    text-align: center;
 }
 .form{
     width: 40%;
@@ -115,4 +149,24 @@ header ul li a:hover{
         text-align: justify;
     }
 
+}
+#flecha{
+    cursor: pointer;
+    font-size: 35px;
+}
+#img-skills{
+    max-width: 600px;
+    margin: 0 auto;
+}
+#vira{
+    transition: 500ms;
+
+}
+.virar{
+    transform: rotate(90deg);
+}
+.ativo{
+    display:flex !important;
+    flex-wrap:wrap;
+    justify-content:space-around;
 }

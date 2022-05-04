@@ -21,6 +21,7 @@
       rel="stylesheet"
     />
 
+
   </head>
   <body>
     <header>
@@ -54,17 +55,40 @@
             nulla, culpa nesciunt cupiditate magnam consequuntur?
           </p>
         </div>
+      </section>
+      <div onclick="displaySkills();" id="flecha">
+        <h5 id="skills">Tenho conhecimento em <br/><i  id="vira" class="fa-solid fa-caret-right"></i></h5>
+      </div>
+      <section class="container-carrosel">
+          <ul style="display:none" id="img-skills">
+            <li><i class="fa-brands fa-html5 "></i><p>HTML</p></li>
+            <li><i class="fa-brands fa-css3 "></i><p>CSS</p></li>
+            <li><i class="fa-brands fa-js-square "></i><p>JAVASCRIPT</p></li>
+            <li><i class="fa-brands fa-node "></i><P>NODE.JS</P></li>
+            <li><i class="fa-brands fa-python fa-"></i><p>PYTHON</p></li>
+            <li><i class="fa-brands fa-react fa-"></i><p>REACT</p></li>
+          </ul>
+        </div>
+
+      </section>
+      <section class="container-form">
         <div class="form">
           <div>
             <p>Deixe seu contato</p>
           </div>
-          <form action="">
+          <form action="post">
             <input type="email" placeholder="Seu e-mail" />
             <button>Enviar</button>
           </form>
         </div>
       </section>
     </main>
+    <footer>
+      olá
+    </footer>
+
+
+    <script src="skills.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
