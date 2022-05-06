@@ -14,6 +14,7 @@ ul{
 body{
     background: url(./src/background.jpg), no-repeat, center center fixed;
     background-size: auto;
+    width: 100%;
 }
 header{
     display:flex;
@@ -29,6 +30,7 @@ header ul {
 }
 header ul li {
     padding: 5px;
+    font-size: 25px;
 }
 header ul li a{
     transition: 300ms;
@@ -70,29 +72,33 @@ header ul li a:hover{
     text-align: center;
     margin: 0 auto;
     margin-top: 5%;
+    
 }
-.container-carrosel{
+.container-skills{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     margin: 0 auto;
     margin-top: 2%;
+
     
 }
-.container-carrosel ul {
+.container-skills ul {
     display:flex;
     flex-wrap:wrap;
+
     
 }
-.container-carrosel ul li{
+.container-skills ul li{
     text-align: center;
     padding: 5px; 
     margin: 5px;
     font-size:25px;
     transition: 300ms;
+
 }
-.container-carrosel ul li:hover{
+.container-skills ul li:hover{
     cursor: pointer;
     background-color: #FD1D53;
 }
@@ -154,10 +160,12 @@ header ul li a:hover{
     text-align: center;
     cursor: pointer;
     font-size: 35px;
+    
 }
 #img--skills{
     max-width: 600px;
     margin: 0 auto;
+    
 }
 #animation--skills{
     transition: 500ms;
@@ -165,9 +173,24 @@ header ul li a:hover{
 }
 .rotate--skills{
     transform: rotate(180deg);
+    
 }
 .active--skills{
     display:flex !important;
     flex-wrap:wrap;
     justify-content:space-around;
+    
+}
+.container--footer {
+    font-size: 2em;
+}
+.container--footer ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2%
+}
+.container--footer ul li{
+    padding: 1%;
 }
